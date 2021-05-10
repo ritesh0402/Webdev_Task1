@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(177, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 100%;
+}
+/* ----------------------------------------------------header------------------------------------------------------ */
+
+ header{
+    background-color: #232329;
+    color: white;
+    border: none;
+    width: 100vw;
+}
+
+
+.hd1 {
+    /* border: 2px solid orange; */
+    height: 50px;
+    width: 69%;
+    margin: auto;
+}
+
+
+nav > ul {
+    float: left;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0em 0.1rem 0em 0.1rem;
+}
+
+nav > ul > li > a {
+    border-radius: 4px;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-size: medium;
+    height: 2.5rem;
+}
+
+nav > ul > li > a:hover {
+    background-color: #43434d;
+}
+
+nav > ul > li > a:active {
+    background-color: #6b6b74;
+}
+
+nav > ul > li > input {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    margin: 0em 0rem 0em 4rem;
+    height: 2.1em;
+    width: 10rem; 
+    border-radius: 2px;
+    border: none;
+    font-size: x-small;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------main------------------------------------------------------- */
+
+main{
+    position: absolute; top: 50px;
+    margin: 0px;
+    display: block;
+    background-color: #313138 ;
+    color: white;
+    height: 24.9rem;
+    width: 100vw;
+}
+
+#md1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 270px;
+    height: 310px;
+    position: absolute; top: 7%; left: 59%;
+    float: right;
+}
+
+#md2 {
+    position: absolute; top: 11%; left: 20%;
+    width: 380px;
+    height: 75%;
+    float: left;
+}
+
+#p3 { 
+    position: absolute; top: 155px;
+    float: left;
+    text-align: left;
+     font-size: 100%;
+}
+
+#d3s2h1 {
+    position: absolute; top: 0px;
+    float: left;
+    font-size: 60px;
+    text-align: left;
+}
+
+#forminput {
+    color: rgb(56, 56, 56);
+    border: 1px thin rgb(194, 194, 194);
+    font-size: small;
+    height: 8%;
+    width: 90%;
+}
+
+.b1 {
+    position: absolute; top: 80%; left: 2em;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 4px;
+    width: 80%;
+     box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     border-color: rgb(0, 187, 0);
+     background-color: rgb(0, 187, 0); 
+}
+
+.b1:active {
+    border-style: inset;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------footer------------------------------------------------------ */
+
+footer{
+    position: absolute; top: 447px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 13em;
+    width: 100vw;
+
+}
+
+#fd1 {
+    border:1px solid red;
+    width: 500px;
+    height: 205px;
+    margin: auto;
+
+}
+
+
+#d3s3p {
+    width: 35%;
+    position: absolute; top: 97px ; left: 32.5%;
+    line-height: 110%;
+    text-align: center;
+    font-size: smaller;
+}
+
+#fd1 > h1 {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 100%;
+    margin-top: 28px;
+}
+
+
+.b2 {
+    background-color: rgb(238, 238, 238);
+    color: rgb(41, 41, 202);
+    border: thin rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: small; 
+    position: absolute; top: 77%; left: 45%;
+}
+
+.b2:active {
+    border-style: inset;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+ @media screen {
+     
+ }
