@@ -79,7 +79,7 @@ nav > ul > li > input {
 /* -----------------------------------------------------main------------------------------------------------------- */
 
 main{
-    position: absolute; top: 50px;
+    position: absolute; top: 3.125rem;
     margin: 0px;
     display: block;
     background-color: #313138 ;
@@ -93,15 +93,15 @@ main{
     background-color: white;
     padding: 10px;
     border-radius: 3px;
-    width: 270px;
-    height: 310px;
+    width: 16.875rem;
+    height: 19.375rem;
     position: absolute; top: 7%; left: 59%;
     float: right;
 }
 
 #md2 {
     position: absolute; top: 11%; left: 20%;
-    width: 380px;
+    width: 23.75rem;
     height: 75%;
     float: left;
 }
