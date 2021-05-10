@@ -50,7 +50,7 @@ h1 {
 
 .logoimage {
     display: flex;
-    position: relative; left: 85%;
+    position: relative; left: 80%;
     /* float: right; */
 }
 
@@ -68,6 +68,7 @@ h1 {
 .btndesign > li {
     display: inline-block;
     margin: 0em 0.1rem 0em 0.1rem;
+    list-style: none;
 }
 
 .btndesign > li > a {
@@ -106,11 +107,12 @@ h1 {
 main{
     position: absolute; top: 3.125rem;
     margin: 0px;
-    display: block;
+    display: flex;
     background-color: #313138 ;
     color: white;
     height: 24.9rem;
-    width: 100vw;
+    width: 100%;
+    align-items: center;
 }
 
 #md1 {
@@ -119,14 +121,16 @@ main{
     padding: 10px;
     border-radius: 3px;
     width: 16.875rem;
-    height: 19.375rem;
-    position: absolute; top: 7%; left: 59%;
+    height: 80%;
+    position: absolute;
+    /* top: 7%; */
+    left: 59%;
     float: right;
 }
 
 #md2 {
     position: absolute; top: 11%; left: 20%;
-    width: 23.75rem;
+    width: 28%;
     height: 75%;
     float: left;
 }
@@ -135,13 +139,14 @@ main{
     position: absolute; top: 155px;
     float: left;
     text-align: left;
-     font-size: 100%;
+    font-size: 100%;
+    width: 100%;
 }
 
 #d3s2h1 {
     position: absolute; top: 0px;
     float: left;
-    font-size: 60px;
+    font-size: 370%;
     text-align: left;
 }
 
@@ -161,7 +166,10 @@ main{
     width: 80%;
      box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
      border-color: rgb(0, 187, 0);
-     background-color: rgb(0, 187, 0); 
+     background-color: rgb(32, 199, 32); 
+}
+.b1:hover {
+    background-color: rgb(44, 182, 44);
 }
 
 .b1:active {
@@ -176,17 +184,17 @@ footer{
     position: absolute; top: 447px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
-    display: block;
+    display: flex;
     height: 13rem;
-    width: 100vw;
+    width: 100%;
+    justify-content: center;
 
 }
 
 #fd1 {
-    border:1px solid red;
-    width: 31.25rem;
-    height: 12.813rem;
-    margin: auto;
+    width: 37%;
+    height: 100%;
+    /* margin: auto; */
 
 }
 
@@ -208,7 +216,7 @@ footer{
 
 
 .b2 {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
     color: rgb(41, 41, 202);
     border: thin rgb(255, 255, 255);
     border-radius: 5px;
@@ -217,10 +225,226 @@ footer{
     position: absolute; top: 77%; left: 45%;
 }
 
+.b2:hover {
+    background-color: rgb(228, 228, 228);
+}
+
 .b2:active {
     border-style: inset;
+    background-color: rgb(202, 200, 200);
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
- @media screen {
-     
- }
+
+
+/* ----------------------------------------------media quiery------------------------------------------------------ */
+@media screen and (max-width: 1201px) {
+    /* header {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    #hd1 {
+        display: flex;
+        position: absolute; top: 0px;
+        height: 350px;
+        margin: 0px;
+    }
+    main {
+        position: absolute; top: 300px;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+
+    .navbarright {
+        flex-direction: column;
+    }
+    .navbarleft {
+        flex-direction: column;
+    }
+    
+    footer {
+        position: absolute; top: 800px;
+    } */
+
+   
+    body {
+        background-color: rgb(177, 177, 177);
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+    
+    h1 {
+        text-align: center;
+        font-weight: lighter;
+        line-height: 100%;
+    }
+    /* ----------------------------------------------------header------------------------------------------------------ */
+    
+     header{
+        background-color: #232329;
+        color: white;
+        border: none;
+        width: 100%;
+    }
+    
+    
+    .hd1 {
+        height: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #logo {
+        display: flex;
+        float: left;
+        /* margin: 0px 0% 0px 23%; */
+        width: 25%;
+    }
+    
+    #navbar {
+        margin-left: 2%;
+        display: flex;
+        float: left;
+        width: 60%;
+        padding-left: 0px;
+    } 
+    
+    .logoimage {
+        display: flex;
+        position: relative; left: 80%;
+        /* float: right; */
+    }
+    
+    .navbarright {
+        display: flex;
+        margin: 0em 0px 0em 0px;
+    }
+    
+    .navbarleft {
+        margin: 0px 3% 0px 0px;
+        display: flex;
+        float: left;
+    }
+    
+    .btndesign > li {
+        display: inline-block;
+        margin: 0em 0.1rem 0em 0.1rem;
+        list-style: none;
+    }
+    
+    .btndesign > li > a {
+        border-radius: 4px;
+        padding: 5px 8px 5px 8px;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        font-size: small;
+        height: 2.5rem;
+    }
+    
+    .btndesign > li > a:hover {
+        background-color: #43434d;
+    }
+    
+    .btndesign > li > a:active {
+        background-color: #6b6b74;
+    }
+    
+    .btndesign > li > input {
+        color: rgb(255, 255, 255);
+        background-color: rgb(56, 56, 56);
+        height: 2.1em;
+        width: 10rem; 
+        border-radius: 2px;
+        border: none;
+        font-size: x-small;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------------- */
+    
+    
+    /* -----------------------------------------------------main------------------------------------------------------- */
+    
+    main{
+        position: absolute; top: 3.125rem;
+        margin: 0px;
+        display: flex;
+        background-color: #313138 ;
+        color: white;
+        height: 24.9rem;
+        width: 100%;
+        align-items: center;
+    }
+    
+    #md1 {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 3px;
+        width: 16.875rem;
+        height: 80%;
+        position: absolute;
+        /* top: 7%; */
+        left: 59%;
+        float: right;
+    }
+    
+    #md2 {
+        position: absolute; top: 11%; left: 20%;
+        width: 28%;
+        height: 75%;
+        float: left;
+    }
+    
+    #p3 { 
+        position: absolute; top: 155px;
+        float: left;
+        text-align: left;
+        font-size: 100%;
+        width: 100%;
+    }
+    
+    #d3s2h1 {
+        position: absolute; top: 0px;
+        float: left;
+        font-size: 370%;
+        text-align: left;
+    }
+    
+    #forminput {
+        color: rgb(56, 56, 56);
+        border: 1px thin rgb(194, 194, 194);
+        font-size: small;
+        height: 8%;
+        width: 90%;
+    }
+    
+    .b1 {
+        position: absolute; top: 80%; left: 2em;
+        color: white;
+        padding: 5px 20px 5px 20px;
+        border-radius: 4px;
+        width: 80%;
+         box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+         border-color: rgb(0, 187, 0);
+         background-color: rgb(32, 199, 32); 
+    }
+    .b1:hover {
+        background-color: rgb(44, 182, 44);
+    }
+    
+    .b1:active {
+        border-style: inset;
+    }
+
+
+}
