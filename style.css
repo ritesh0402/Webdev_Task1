@@ -5,6 +5,8 @@ body {
     font-weight: lighter;
     margin: 0px;
     box-sizing: border-box;
+    /* height: 100vw;
+    width: 100vh; */
 }
 
 button {
@@ -34,8 +36,11 @@ h1 {
     margin: auto;
 }
 
+#logo {
+    display: inline; float: left;
+}
 
-nav > ul {
+#navbar {
     float: left;
 }
 
@@ -152,15 +157,15 @@ footer{
     margin: 0px;
     background-color: rgb(255, 255, 255);
     display: block;
-    height: 13em;
+    height: 13rem;
     width: 100vw;
 
 }
 
 #fd1 {
     border:1px solid red;
-    width: 500px;
-    height: 205px;
+    width: 31.25rem;
+    height: 12.813rem;
     margin: auto;
 
 }
