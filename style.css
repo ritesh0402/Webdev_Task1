@@ -117,7 +117,7 @@ h1 {
 /* -----------------------------------------------------main------------------------------------------------------- */
 
 main{
-    position: absolute; top: 3.125rem;
+    position: absolute; top: 50px;
     margin: 0px;
     display: flex;
     background-color: #313138 ;
@@ -295,6 +295,24 @@ footer{
 
 
 @media only screen and (max-width: 480px) {
+    
+   .hd1 {
+       height: 60px;
+   }
+    
+   .burger {
+       top: 19px;
+       right: 25px;
+   }
+    .logoimage{
+        height: 60px;
+    }
+
+    main{
+        top: 60px;
+        height: 53vh;
+    }
+
     #md1 {
         display: none;
     }
@@ -308,22 +326,51 @@ footer{
     }
     
     #d3s2h1 {
+        margin: 50px 0px 15px 0px;
         text-align: center;
         font-size: 300%;
         width: 100vw;
+        color: rgb(209, 209, 209);
     }
     #p3 {
         text-align: center;
-        width: 87.5%;
-        position: absolute;left: 6.25%;
+        width: 90%;
+        position: absolute;left: 5%;
+        font-size: 120%;
+        color: rgb(150, 149, 149);
+        line-height: 25px;
     }
+
+    #p3 > b {
+        color: rgb(189, 189, 189);
+    }
+
 
     .bhidden {
         display: block;
         height: 50px;
-        width: 60%;
+        width: 50%;
         border-radius: 3px;
         font-size: medium ;
-        position: absolute;left: 20%; bottom: 5%;
+        position: absolute;left: 25%; bottom: 5%;
     }
+
+    footer {
+        height: 40vh;
+        width: 100%;
+        top: 60vh;
+
+    }
+
+    #fd1 > h1 {
+        top: 10px;
+    }
+
+    #d3s3p {
+        top: 250px;
+        width: 100%;
+        left: 0px;
+        margin: 10px;
+    }
+
 }
