@@ -131,9 +131,9 @@ main{
     color: black;
     background-color: white;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 16.875rem;
-    height: 80%;
+    height: 78%;
     position: absolute;
     /* top: 7%; */
     left: 59%;
@@ -143,7 +143,7 @@ main{
 #md2 {
     position: absolute; top: 11%; left: 20%;
     width: 28%;
-    height: 75%;
+    height: 70%;
     float: left;
 }
 
@@ -164,14 +164,15 @@ main{
 
 #forminput {
     color: rgb(56, 56, 56);
-    border: 1px thin rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
     font-size: small;
     height: 8%;
     width: 90%;
 }
 
 .b1 {
-    position: absolute; top: 80%; left: 2em;
+    position: absolute; top: 77%; left: 2em;
     color: white;
     padding: 5px 20px 5px 20px;
     border-radius: 4px;
@@ -421,7 +422,7 @@ footer{
         font-size: 120%;
         color: rgb(150, 149, 149);
         line-height: 24px;
-        margin-left: -180px;
+        margin-left: -175px;
         margin-top: 0px;
     }
 
