@@ -297,19 +297,19 @@ footer{
 @media only screen and (max-width: 480px) {
     
    .hd1 {
-       height: 60px;
+       height: 50px;
    }
     
    .burger {
-       top: 19px;
+       top: 14px;
        right: 25px;
    }
     .logoimage{
-        height: 60px;
+        height: 50px;
     }
 
     main{
-        top: 60px;
+        top: 50px;
         height: 460px;
     }
 
@@ -358,7 +358,7 @@ footer{
     footer {
         height: 300px;
         width: 100%;
-        top: 522px;
+        top: 510px;
         padding-top: 0px;
 
     }
@@ -393,5 +393,6 @@ footer{
         left: 180px;
         top: 215px;
     }
+
 
 }
