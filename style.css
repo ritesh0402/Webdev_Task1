@@ -364,11 +364,18 @@ footer{
 
     #fd1 > h1 {
         top: 10px;
+        width: 90%;
+    }
+
+    #fd1 > p {
+        position: absolute;
+        left: -50pxpx;
     }
 
     #d3s3p {
-        top: 250px;
-        width: 100%;
+        text-align: center;
+        top: 100px;
+        width: 80%;
         left: 0px;
         margin: 10px;
     }
