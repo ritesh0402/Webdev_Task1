@@ -256,9 +256,13 @@ footer{
 
 @media only screen and (max-width: 1204px){
     #logo {
-        width: 100px;
+        width: 50px;
+        position: absolute;
+        right: 910px;
     }
+
     #navbar{
+
         width: 718px;
         float: right;
         margin-right: 10%;
@@ -268,17 +272,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 845px){
-    #logo {
-        width: 5%;
-    }
-
-}
-
-
-
-
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 940px) {
 
     #navbar {
         display: none;
@@ -302,11 +296,17 @@ footer{
     
    .burger {
        top: 14px;
-       right: 25px;
+       right: 40px;
    }
     .logoimage{
         height: 50px;
     }
+
+    #logo {
+        position: absolute;
+        left: 0px;
+    }
+
 
     main{
         top: 50px;
