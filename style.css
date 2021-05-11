@@ -310,7 +310,7 @@ footer{
 
     main{
         top: 60px;
-        height: 53vh;
+        height: 514px;
     }
 
     #md1 {
@@ -326,7 +326,7 @@ footer{
     }
     
     #d3s2h1 {
-        margin: 50px 0px 15px 0px;
+        margin: 80px 0px 15px 0px;
         text-align: center;
         font-size: 300%;
         width: 100vw;
@@ -335,7 +335,7 @@ footer{
     #p3 {
         text-align: center;
         width: 90%;
-        position: absolute;left: 5%;
+        position: absolute;left: 5%; top: 200px;
         font-size: 120%;
         color: rgb(150, 149, 149);
         line-height: 25px;
@@ -356,28 +356,42 @@ footer{
     }
 
     footer {
-        height: 40vh;
+        height: 340px;
         width: 100%;
-        top: 60vh;
+        top: 575px;
+        padding-top: 20px;
 
     }
 
     #fd1 > h1 {
-        top: 10px;
         width: 90%;
+        margin: 60px auto;
     }
 
     #fd1 > p {
+        top: 190px;
         position: absolute;
-        left: -50pxpx;
+        font-size: medium;
+    }
+
+    #hr {
+    display: none;
     }
 
     #d3s3p {
         text-align: center;
-        top: 100px;
+        top: 200px;
         width: 80%;
-        left: 0px;
-        margin: 10px;
+        left: 50px;
+        margin: auto;
+        font-size: 150px;
+        line-height: 20px;
+    }
+
+    .b2 {
+        position: absolute;
+        left: 180px;
+        top: 280px;
     }
 
 }
